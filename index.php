@@ -84,7 +84,7 @@ include './public/common/config.php';
         $('.ptime').html(time);
     },1000);
 
-    $('input').eq(0).keyup(function (){
+    $('.input').eq(0).keyup(function (){
         val = $(this).val();
         $(".ppick").html(val);
     });
