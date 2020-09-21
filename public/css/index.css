@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: '楷体','微软雅黑','Arial','fantasy';
+}
+.main {
+    width: 970px;
+    background: #f4f4f4;
+    margin: 15px auto;
+}
+.header {
+    width: 100%;
+    height: 30px;
+    background: #272822;
+    color: white;
+    line-height: 30px;
+    text-indent: 10px;
+}
+.nav {
+    width: 100%;
+    height: 125px;
+    border-bottom: 2px inset #999;
+    box-sizing: border-box;
+}
+.info {
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+.footer {
+    width: 100%;
+    height: 30px;
+    background: #272822;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+}
+.logo {
+    float: left;
+    margin-left: 50px;
+    margin-top: 12.5px;
+}
+.send {
+    float: left;
+    margin-left: 150px;
+    margin-top: 39px;
+}
+.read {
+    float: left;
+    margin-left: 50px;
+    margin-top: 39px;
+}
+.find {
+    float: right;
+    margin-right: 15px;
+    margin-top: 45px;
+}
+.find input {
+    outline: none;
+}
+.search {
+    float: left;
+    background: url("../images/s.gif");
+    height: 35px;
+    border: none;
+    text-indent: 15px;
+    font-size: 16px;
+}
+
+.list {
+    border-collapse: collapse;
+    width: 100%;
+    color: #555;
+}
+.list td,.list th {
+    border: 1px solid #cccccc;
+    background: #fff;
+    height: 35px;
+    font-size: 14px;
+    text-align: center;
+}
+.list th {
+    background: #eee;
+}
+.tddiv {
+    background: url("../images/face.gif");
+    width: 240px;
+    height: 190px;
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.pheader {
+    border-bottom: 1px dotted #ccc;
+}
+.ppick {
+    color: #f12282;
+}
+.psend{
+    color: #5aa;
+    text-align: right;
+}
+.pinfo{
+    overflow: auto;
+    word-break: break-all;
+    height: 100px;
+}
+.ptime{
+    color: #ccc;
+    text-align: right;
+}
+.addcls{
+    text-align: right;
+    padding-right: 15px;
+    width: 100px;
+    background: #eee;
+}
+.input{
+    width: 90%;
+    height: 30px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+}
+.addinput{
+    padding-left: 15px;
+}
+textarea{
+    border: 1px solid #ccc;
+    resize: none;
+    width: 90%;
+    padding-left: 10px;
+}
+.sub2{
+    width: 100px;
+    background: #ee2266;
+    color: #fff;
+    font-weight: bold;
+}
+.vow{
+    width: 220px;
+    height: 190px;
+    background: url("../images/face.gif"); center center;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+.vheader{
+    border-bottom: 1px dashed #272822;
+}
+.vpick{
+    color: #f12282;
+}
+.vinfo{
+    overflow: auto;
+    word-break: break-all;
+    height: 100px;
+}
+.vsend{
+    text-align: right;
+}
+.vtime{
+    color: #ccc;
+    text-align: right;
+}
