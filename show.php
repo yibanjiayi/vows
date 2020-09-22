@@ -9,7 +9,7 @@ foreach ($rows as $row) {
     echo "<p class='vpick'>To：{$row['pick']}</p>";
     echo "<p class='vinfo'>{$row['info']}</p>";
     echo "<p class='vsend'>{$row['send']}</p>";
-    echo "<p class='vtime'>".date('Y-m-d H:i:s',$row['time'])."</p>";
+    echo "<p class='vtime'>".date('Y-m-d',$row['time'])."</p>";
     echo "</div>";
 }
 ?>
