@@ -139,6 +139,24 @@ textarea{
     font-weight: bold;
 }
 
+.page{
+    position: absolute;
+    bottom: 6px;
+    left: 50%;
+    margin-left: -116px;
+}
+.page a{
+    padding: 6px;
+    text-decoration: none;
+}
+.slant {
+    border-top: 36px solid #fdaf92;
+    border-right: 103px solid #ffe676;
+}
+.list th:last-child {
+    width: 103px;
+}
+
 .vow{
     width: 220px;
     height: 190px;
@@ -165,22 +183,4 @@ textarea{
 .vtime{
     color: #ccc;
     text-align: right;
-}
-
-.page{
-    position: absolute;
-    bottom: 6px;
-    left: 50%;
-    margin-left: -116px;
-}
-.page a{
-    padding: 6px;
-    text-decoration: none;
-}
-.slant {
-    border-top: 36px solid #fdaf92;
-    border-right: 103px solid #ffe676;
-}
-.list th:last-child {
-    width: 103px;
 }

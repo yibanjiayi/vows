@@ -52,7 +52,7 @@ include './public/common/config.php';
             ?>
         </div>
         <div class="footer">
-            <span>www. ??? .com</span>
+            <span>www.yibanjiayi.top</span>
         </div>
     </div>
 </body>
